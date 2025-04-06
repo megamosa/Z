@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Block\Adminhtml\Order\Grid">
+        <plugin name="order_mass_actions_access_control" 
+                type="MagoArab\OrderActionsControl\Plugin\Block\Adminhtml\Sales\Order\MassActionsPlugin" 
+                sortOrder="10" 
+                disabled="false"/>
+    </type>
+</config>
